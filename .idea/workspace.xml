@@ -6,15 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29d99238-18b6-4e2d-9eda-979a391c6ca0" name="Default" comment="本地修改完善，12/13">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ simulate/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/instrument/Stringspliter.java" />
+    <list default="true" id="29d99238-18b6-4e2d-9eda-979a391c6ca0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ simulate/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ simulate/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ simulate/src/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/../ simulate/src/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/TraiFactor/Walk.java" afterPath="$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/TraiFactor/Walk.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/instrument/ContentFactory.java" afterPath="$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/instrument/ContentFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/instrument/FileReader.java" afterPath="$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/instrument/FileReader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/test/Test.java" afterPath="$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/test/TestMakeFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/instrument/Stringspliter.java" afterPath="$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/instrument/Stringspliter.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../ simulate/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,6 +34,9 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="simulate" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="FileOperator.java" pinned="false" current-in-tab="false">
@@ -57,7 +54,7 @@
       <file leaf-file-name="TestMakeFile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/test/TestMakeFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
+            <state relative-caret-position="259">
               <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -66,11 +63,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="LocationUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/instrument/LocationUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1295">
+              <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="FileReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/instrument/FileReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="1739">
+              <caret line="52" column="85" lean-forward="false" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1027#1028#0" expanded="true" />
@@ -83,8 +90,8 @@
       <file leaf-file-name="Stringspliter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/instrument/Stringspliter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="409">
+              <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -93,8 +100,8 @@
       <file leaf-file-name="Walk.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/TraiFactor/Walk.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="259">
+              <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -104,7 +111,7 @@
         <entry file="file://$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/test/NowString.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="259">
-              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="31" />
+              <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,7 +122,7 @@
       <file leaf-file-name="Stay.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/TraiFactor/Stay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
+            <state relative-caret-position="407">
               <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               <folding />
             </state>
@@ -125,7 +132,7 @@
       <file leaf-file-name="ContentFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/instrument/ContentFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="997">
+            <state relative-caret-position="2072">
               <caret line="63" column="47" lean-forward="false" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -134,20 +141,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MillerCoordinate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/instrument/MillerCoordinate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RandomNumber.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/instrument/RandomNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="1147">
               <caret line="31" column="41" lean-forward="false" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
               <folding />
             </state>
@@ -229,8 +226,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="201" />
-    <option name="y" value="83" />
+    <option name="x" value="490" />
+    <option name="y" value="24" />
     <option name="width" value="1400" />
     <option name="height" value="992" />
   </component>
@@ -250,9 +247,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -340,6 +334,9 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -362,7 +359,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileReader">
+  <component name="RunManager" selected="Application.Stringspliter">
     <configuration name="FileOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -401,14 +398,14 @@
       <module name="simulate" />
       <envs />
     </configuration>
-    <configuration name="LocationUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Stringspliter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.git.catcokkie.instrument.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.git.catcokkie.instrument.LocationUtils" />
+      <option name="MAIN_CLASS_NAME" value="com.git.catcokkie.instrument.Stringspliter" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ simulate" />
@@ -540,19 +537,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.LocationUtils" />
-      <item index="1" class="java.lang.String" itemvalue="Application.FileOperator" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Walk" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestMakeFile" />
-      <item index="4" class="java.lang.String" itemvalue="Application.FileReader" />
+      <item index="0" class="java.lang.String" itemvalue="Application.FileOperator" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Walk" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestMakeFile" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FileReader" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Stringspliter" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FileReader" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestMakeFile" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Walk" />
-        <item index="3" class="java.lang.String" itemvalue="Application.FileOperator" />
-        <item index="4" class="java.lang.String" itemvalue="Application.LocationUtils" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Stringspliter" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FileReader" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestMakeFile" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Walk" />
+        <item index="4" class="java.lang.String" itemvalue="Application.FileOperator" />
       </list>
     </recent_temporary>
   </component>
@@ -581,30 +578,39 @@
       <workItem from="1512976986069" duration="9768000" />
       <workItem from="1513038641348" duration="22452000" />
       <workItem from="1513125329566" duration="967000" />
-      <workItem from="1513126351046" duration="11157000" />
+      <workItem from="1513126351046" duration="14120000" />
+      <workItem from="1513173966482" duration="198000" />
     </task>
+    <task id="LOCAL-00001" summary="本地修改完善，12/13">
+      <created>1513166615073</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1513166615073</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152878000" />
+    <option name="totallyTimeSpent" value="156039000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35345912" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37861636" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19796138" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20171674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -616,6 +622,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -980,14 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/instrument/LocationUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1332">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/instrument/Arith.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -1017,7 +1016,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/instrument/ContentFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="997">
+        <state relative-caret-position="2072">
           <caret line="63" column="47" lean-forward="false" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1027,15 +1026,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/TraiFactor/Walk.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        <state relative-caret-position="259">
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/TraiFactor/Stay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
+        <state relative-caret-position="407">
           <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding />
         </state>
@@ -1043,36 +1042,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/instrument/RandomNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="1147">
           <caret line="31" column="41" lean-forward="false" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/test/TestMakeFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/test/NowString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
-          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="31" />
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/instrument/LocationUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1295">
+          <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/instrument/FileReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        <state relative-caret-position="1739">
+          <caret line="52" column="85" lean-forward="false" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="85" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1027#1028#0" expanded="true" />
@@ -1081,10 +1078,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/test/TestMakeFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/instrument/Stringspliter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="409">
+          <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
           <folding />
         </state>
       </provider>
