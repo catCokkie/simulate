@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 import static com.git.catcokkie.test.NowString.nowStringTime;
 
-public class Test {
+public class TestMakeFile {
     public static double[] coordinate = {0, 0};
     public static long fakeNowStringTime = nowStringTime;
 

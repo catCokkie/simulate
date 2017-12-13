@@ -2,8 +2,6 @@ package com.git.catcokkie.TraiFactor;
 
 import java.util.Random;
 
-import static com.git.catcokkie.test.Test.coordinate;
-
 public class Walk {
     public static double[] walk( double[] array ) {
         //设置随机范围 速度

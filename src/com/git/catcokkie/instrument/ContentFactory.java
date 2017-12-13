@@ -5,11 +5,10 @@ import com.git.catcokkie.TraiFactor.*;
 import com.git.catcokkie.fileoperator.FileOperator;
 
 import java.io.IOException;
-import java.util.Random;
 
 import static com.git.catcokkie.instrument.RandomNumber.PercentageRandom;
-import static com.git.catcokkie.test.Test.coordinate;
-import static com.git.catcokkie.test.Test.fakeNowStringTime;
+import static com.git.catcokkie.test.TestMakeFile.coordinate;
+import static com.git.catcokkie.test.TestMakeFile.fakeNowStringTime;
 
 
 public class ContentFactory {
