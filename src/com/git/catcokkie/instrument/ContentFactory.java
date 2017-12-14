@@ -1,7 +1,7 @@
 package com.git.catcokkie.instrument;
 
 
-import com.git.catcokkie.TraiFactor.*;
+import com.git.catcokkie.traifactor.*;
 import com.git.catcokkie.fileoperator.FileOperator;
 
 import java.io.IOException;
@@ -33,7 +33,7 @@ public class ContentFactory {
 
         switch (s1) {
             case 0:
-                tempCoordinate = WrongWay.WrongWay(tempCoordinate);
+                tempCoordinate = WrongWay.wrongWay(tempCoordinate);
                 /**
                  * sTime time string
                  */
@@ -70,7 +70,7 @@ public class ContentFactory {
                 break;
             case 2:
                 for (long i = 0; i < 98; i++) {
-                    coordinate = Stay.Stay(coordinate);
+                    coordinate = Stay.stay(coordinate);
                     String output = coordinateMaker(coordinate);
                     try {
                         FileOperator.FileOperator(output);
@@ -92,7 +92,7 @@ public class ContentFactory {
                 break;
             case 4:
                 for (long i = 0; i < 99; i++) {
-                    coordinate = Ride.Ride(coordinate);
+                    coordinate = Ride.ride(coordinate);
                     String output = coordinateMaker(coordinate);
                     try {
                         FileOperator.FileOperator(output);
@@ -103,7 +103,7 @@ public class ContentFactory {
                 break;
             case 5:
                 for (long i = 0; i < 100; i++) {
-                    coordinate = Drive.Drive(coordinate);
+                    coordinate = Drive.drive(coordinate);
                     String output = coordinateMaker(coordinate);
                     try {
                         FileOperator.FileOperator(output);

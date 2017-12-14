@@ -1,17 +1,20 @@
-package com.git.catcokkie.TraiFactor;
+package com.git.catcokkie.traifactor;
 
 import java.util.Random;
 
 /**
- * @author qqqq
+ * Description:
+ * 包装生成轨迹的坐标值增加方法
+ * @author Administrator
+ * @date 2017-12-14
+ * @see 1
+ * @since 1
  */
-public class Ride {
-    public static double[] Ride( double[] array ) {
+public class RabdomTrail {
+    public static double[] randomSpeed( double max, double min, double[] array ) {
         //设置随机范围 速度
-        double max = 0.000025025;
-        double min = 0.000075075075;
         Random random = new Random();
-        double s = random.nextDouble()*(max-min)+ min;
+        double s = random.nextDouble() * (max - min) + min;
         //操作数组
         double r1 = array[0] + s;
         double r2 = array[1];

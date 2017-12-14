@@ -11,9 +11,9 @@ import java.util.Scanner;
  *
  * @author Administrator
  * @date 2017-12-13
- * @see
- * @since
- * @version
+ * @see 1
+ * @since 1
+ * @version 1
  */
 public class FileReader {
     /**
