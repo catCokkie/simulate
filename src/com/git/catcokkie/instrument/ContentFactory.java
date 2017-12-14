@@ -5,6 +5,7 @@ import com.git.catcokkie.traifactor.*;
 import com.git.catcokkie.fileoperator.FileOperator;
 
 import java.io.IOException;
+import java.text.DecimalFormat;
 
 import static com.git.catcokkie.instrument.RandomNumber.percentageRandom;
 import static com.git.catcokkie.test.TestMakeFile.coordinate;
@@ -13,10 +14,10 @@ import static com.git.catcokkie.test.TestMakeFile.fakeNowStringTime;
 
 public class ContentFactory {
     /**
-     *     错误 缺失 停留 三种行进状态
-     *     1根据状态生成坐标（gps）
-     *     2调用时间生成方法记录时间
-     *     合成字符串 作为方法返回
+     * 错误 缺失 停留 三种行进状态
+     * 1根据状态生成坐标（gps）
+     * 2调用时间生成方法记录时间
+     * 合成字符串 作为方法返回
      * 生成随机数
      * 根据随机数返回判断六种状态 switch
      */
@@ -59,70 +60,60 @@ public class ContentFactory {
                         }
                     } else {
                         coordinate = Walk.walk(coordinate);
-                        String output = coordinateMaker(coordinate);
-                        try {
-                            FileOperator.FileOperator(output);
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }
+                        writeFile(coordinate);
                     }
                 }
                 break;
             case 2:
                 for (long i = 0; i < 98; i++) {
                     coordinate = Stay.stay(coordinate);
-                    String output = coordinateMaker(coordinate);
-                    try {
-                        FileOperator.FileOperator(output);
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
+                    writeFile(coordinate);
                 }
                 break;
             case 3:
                 for (long i = 0; i < 100; i++) {
                     coordinate = Walk.walk(coordinate);
-                    String output = coordinateMaker(coordinate);
-                    try {
-                        FileOperator.FileOperator(output);
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
+                    writeFile(coordinate);
                 }
                 break;
             case 4:
                 for (long i = 0; i < 99; i++) {
                     coordinate = Ride.ride(coordinate);
-                    String output = coordinateMaker(coordinate);
-                    try {
-                        FileOperator.FileOperator(output);
-                    } catch (IOException e) {
-                        throw new RuntimeException(e);
-                    }
+                    writeFile(coordinate);
                 }
                 break;
             case 5:
                 for (long i = 0; i < 100; i++) {
                     coordinate = Drive.drive(coordinate);
-                    String output = coordinateMaker(coordinate);
-                    try {
-                        FileOperator.FileOperator(output);
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
+                    writeFile(coordinate);
                 }
                 break;
             default:
         }
     }
 
+    private static void writeFile( double[] coordinate ) {
+        String output = coordinateMaker(coordinate);
+        try {
+            FileOperator.FileOperator(output);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * @param array 坐标
+     * @return s 打印内容
+     */
     private static String coordinateMaker( double[] array ) {
-        String tempContentFactory = "" + array[0] + "," + array[1] + ",";
+        DecimalFormat df = new DecimalFormat("0.0000000");
+        String array0 = df.format(array[0]);
+        String array1 = df.format(array[1]);
+        String tempContentFactory = array0 + "," + array1 + ",";
         String sTime = String.valueOf(fakeNowStringTime);
         String s = tempContentFactory + sTime + "\n";
         fakeNowStringTime++;
         return s;
     }
-
 
 }
