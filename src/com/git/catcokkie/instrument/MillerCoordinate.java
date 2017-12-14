@@ -1,10 +1,5 @@
 package com.git.catcokkie.instrument;
 
-import java.math.BigDecimal;
-import java.util.Arrays;
-
-import static javafx.scene.input.KeyCode.M;
-
 public class MillerCoordinate {
 
     public static double[] MillierConvertion( double lat, double lon ) {

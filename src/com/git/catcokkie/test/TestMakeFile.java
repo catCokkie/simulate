@@ -1,17 +1,17 @@
 package com.git.catcokkie.test;
 
 
-
 import com.git.catcokkie.instrument.ContentFactory;
 
-import java.io.*;
 import java.util.Scanner;
 
-import static com.git.catcokkie.test.NowString.nowStringTime;
-
 public class TestMakeFile {
+
+    /**
+     *
+     */
     public static double[] coordinate = {0, 0};
-    public static long fakeNowStringTime = nowStringTime;
+    public static long fakeNowStringTime = System.currentTimeMillis();
 
     public static void main( String[] args ) {
         /**

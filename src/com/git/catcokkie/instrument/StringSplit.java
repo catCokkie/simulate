@@ -6,8 +6,8 @@ package com.git.catcokkie.instrument;
  * @author Administrator
  * @Time
  */
-public class Stringspliter {
-    public Stringspliter( String a ) {
+public class StringSplit {
+    public StringSplit( String a ) {
 
     }
 //     public static String[] stringSpliter(String a){
