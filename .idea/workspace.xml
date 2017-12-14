@@ -7,16 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29d99238-18b6-4e2d-9eda-979a391c6ca0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/instrument/RoundTool.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/test/TestHandleFile.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ simulate/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ simulate/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ simulate/a/a.txt" afterPath="$PROJECT_DIR$/../ simulate/a/a.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ simulate/a/b.txt" afterPath="$PROJECT_DIR$/../ simulate/a/b.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/fileoperator/FileOperator.java" afterPath="$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/fileoperator/FileOperator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/instrument/ContentFactory.java" afterPath="$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/instrument/ContentFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/traifactor/RabdomTrail.java" afterPath="$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/traifactor/RabdomTrail.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/traifactor/WrongWay.java" afterPath="$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/traifactor/WrongWay.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/instrument/StringSplit.java" afterPath="$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/instrument/CalculateSpeed.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../ simulate/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -121,8 +112,8 @@
       <file leaf-file-name="CalculateSpeed.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/instrument/CalculateSpeed.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+            <state relative-caret-position="464">
+              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -183,6 +174,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../ simulate" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../ simulate" value="master" />
+      </map>
+    </option>
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -582,7 +579,7 @@
       <workItem from="1513173966482" duration="2981000" />
       <workItem from="1513208616834" duration="2084000" />
       <workItem from="1513212158099" duration="11818000" />
-      <workItem from="1513228985046" duration="12443000" />
+      <workItem from="1513228985046" duration="13113000" />
     </task>
     <task id="LOCAL-00001" summary="本地修改完善，12/13">
       <created>1513166615073</created>
@@ -612,11 +609,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513221622819</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="本地修改完善，12/14&#10;修改时间方式为时间戳格式&#10;按编码规范修改、重构原代码&#10;完成速度计算以及生成新的速度文件">
+      <created>1513246812676</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1513246812676</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185167000" />
+    <option name="totallyTimeSpent" value="185837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -628,10 +632,10 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3774912" sideWeight="0.50429183" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3774912" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3774912" sideWeight="0.49570817" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -718,7 +722,8 @@
     <MESSAGE value="本地修改完善，12/13" />
     <MESSAGE value="本地修改完善，12/14&#10;修改时间方式为时间戳格式" />
     <MESSAGE value="本地修改完善，12/14&#10;修改时间方式为时间戳格式&#10;按编码规范修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="本地修改完善，12/14&#10;修改时间方式为时间戳格式&#10;按编码规范修改" />
+    <MESSAGE value="本地修改完善，12/14&#10;修改时间方式为时间戳格式&#10;按编码规范修改、重构原代码&#10;完成速度计算以及生成新的速度文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="本地修改完善，12/14&#10;修改时间方式为时间戳格式&#10;按编码规范修改、重构原代码&#10;完成速度计算以及生成新的速度文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1128,8 +1133,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../ simulate/src/com/git/catcokkie/instrument/CalculateSpeed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+        <state relative-caret-position="464">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
