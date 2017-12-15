@@ -28,15 +28,16 @@ public class CalculateSpeed {
             double lat2 = Double.parseDouble(testArray1[0]);
             double lng2 = Double.parseDouble(testArray1[1]);
             //计算速度
-            double speed = LocationUtils.getDistance(lat1, lng1, lat2, lng2);
+            double length = LocationUtils.getDistance(lat1, lng1, lat2, lng2);
+            long tempTime = Long.parseLong(testArray1[2]) - Long.parseLong(testArray0[2]);
+            double speed = (length / tempTime) * 3.6;
             DecimalFormat df = new DecimalFormat("0.0");
             String speed1 = df.format(speed);
-            StringBuffer sb = new StringBuffer();
-            sb.append(lines[i]).append(",").append(speed1).append("\n");
+            String sb = lines[i] + "," + speed1 + "\n";
             lines[i] = sb.toString();
             String output = lines[i];
             try {
-                FileOperator.FileOperator1(output);
+                FileOperator.fileOperatorC(output);
             } catch (IOException e) {
                 e.printStackTrace();
             }

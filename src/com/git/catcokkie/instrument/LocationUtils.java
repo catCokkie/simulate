@@ -31,10 +31,6 @@ public class LocationUtils {
         return s;
     }
 //    public static void main(String[] args) {
-//        double lat1=39.90200;
-//        double lng1=0;
-//        double lat2=39.90210;
-//        double lng2=0;
 //        System.out.println((lat1-lat2));
 //        System.out.println(getDistance(lat1,lng1,lat2,lng2));
 //    }

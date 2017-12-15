@@ -41,7 +41,7 @@ public class ContentFactory {
                 String sTime = String.valueOf(fakeNowStringTime);
                 tempContentFactory = "" + tempCoordinate[0] + "," + tempCoordinate[1] + "," + sTime + "\n";
                 try {
-                    FileOperator.FileOperator(tempContentFactory);
+                    FileOperator.fileOperatorA(tempContentFactory);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -50,14 +50,14 @@ public class ContentFactory {
             case 1:
                 for (int i = 0; i < 100; i++) {
                     if (Math.random() <= 0.5) {
-                        String stime1 = String.valueOf(fakeNowStringTime);
-                        String output = "0,0," + stime1 + "\n";
+//                        String stime1 = String.valueOf(fakeNowStringTime);
+//                        String output = "0,0," + stime1 + "\n";
                         fakeNowStringTime++;
-                        try {
-                            FileOperator.FileOperator(output);
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }
+//                        try {
+//                            fileOperatorA.fileOperatorA(output);
+//                        } catch (IOException e) {
+//                            e.printStackTrace();
+//                        }
                     } else {
                         coordinate = Walk.walk(coordinate);
                         writeFile(coordinate);
@@ -95,7 +95,7 @@ public class ContentFactory {
     private static void writeFile( double[] coordinate ) {
         String output = coordinateMaker(coordinate);
         try {
-            FileOperator.FileOperator(output);
+            FileOperator.fileOperatorA(output);
         } catch (IOException e) {
             e.printStackTrace();
         }

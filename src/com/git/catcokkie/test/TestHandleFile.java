@@ -15,7 +15,8 @@ public class TestHandleFile {
     /**
      *lines 读取整个文件置于数组Lines中
      */
-    public static String[] lines = new FileReader("E:\\ simulate\\a\\a.txt", "UTF-8").getLines();
+    public static String[] lines = new FileReader
+            ("E:\\ simulate\\a\\a.txt", "UTF-8").getLines();
 
     public static void main( String[] args ) {
         CalculateSpeed.calculateSpeed(lines);
